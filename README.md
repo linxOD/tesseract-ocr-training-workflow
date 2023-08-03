@@ -4,6 +4,8 @@ This repository contains a workflow for training Tesseract OCR models. It is bas
 
 ## Usage YAML
 See `.github/workflows/*.yml` file.
+* IMPORTANT! Update the environment variables in the workflow file with your data.
+* IMPORTANT! Before starting the workflow add a images download script to the YAML file. See step `create ground-truth` and move them to the `hocr-img-line-extraction/my_img/` folder.
 
 ## Usage LOCAL
 * run `./scripts/install-hocr-img-line-extraction-tool.sh`
