@@ -1,4 +1,4 @@
-# bin/bash
+#/bin/bash
 
 # install leptonica
 git clone git@github.com:microsoft/vcpkg.git

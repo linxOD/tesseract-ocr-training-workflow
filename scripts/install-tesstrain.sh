@@ -1,4 +1,4 @@
-# bin/bash
+#/bin/bash
 
 # install tesstrain repo latest
 wget https://github.com/tesseract-ocr/tesstrain/archive/refs/heads/main.zip

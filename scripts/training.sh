@@ -1,4 +1,4 @@
-# bin/bash
+#/bin/bash
 
 # MODEL_NAME=deu_frak_vms
 # echo $TESSDATA_PREFIX # /usr/local/share/tessdata or /home/daniel/Documents/tesseract-ocr/tessdata

@@ -1,4 +1,4 @@
-# bin/bash
+#/bin/bash
 
 # install tesseract with training tools latest version
 wget https://github.com/tesseract-ocr/tesseract/archive/refs/heads/main.zip

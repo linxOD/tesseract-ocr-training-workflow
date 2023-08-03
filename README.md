@@ -11,6 +11,7 @@ See `.github/workflows/*.yml` file.
 * run `./scripts/install-hocr-img-line-extraction-tool.sh`
 * add images to `./hocr-img-line-extraction/my_img/` folder
 * update `.env` file with your data and run `./scripts/set-env.sh`
+* run `./install-all-dependencies.sh`
 * run `./create-ground-truth.sh`
 * run `./start-workflow.sh`
 

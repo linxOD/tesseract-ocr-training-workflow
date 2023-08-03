@@ -1,4 +1,4 @@
-# bin/bash
+#/bin/bash
 
 # depencencies for tesseract ocr
 
