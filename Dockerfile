@@ -1,4 +1,4 @@
-FROM ubuntu:22.04.2
+FROM ubuntu:18.04
 
 SHELL ["/bin/bash", "-c"]
 
