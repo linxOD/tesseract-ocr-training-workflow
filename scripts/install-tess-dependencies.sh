@@ -11,39 +11,23 @@
 # see https://notesalexp.org/tesseract-ocr/packages5/en/ubuntu/jammy/amd64/
 # for installing tesseract-ocr-5 and language packages
 
-sudo apt-get update
-sudo apt-get install -y \
-    build-essential \
+apt-get update -y
+apt-get install -y \
     automake \
     ca-certificates \
-    libleptonica-dev \
-    libtool \
-    autoconf \
     g++ \
+    git \
+    libtool \
+    libleptonica-dev \
+    bc \
     make \
     pkg-config \
-    cmake \
-    git \
-    curl \
-    libjpeg \
-    openjpeg \
-    libjpeg8-dev \
-    libopenjp2-7-dev \
-    giflib \
-    libgif-dev \
-    libpng \
-    libpng-dev \
-    libtiff \
-    libtiff5-dev \
-    webp \
-    libwebpdemux2 \
-    libwebp-dev \
-    zlib \
-    zlib1g-dev \
-    archive \
-    libarchive-dev \
-    libcurl4-openssl-dev \
+    apt-transport-https \
+    aptitude \
     libicu-dev \
     libpango1.0-dev \
-    libcairo2-dev \
-    apt-transport-https
+    libcairo2-dev
+
+# apt-get update -oAcquire::AllowInsecureRepositories=true
+# apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true
+# apt-get update
