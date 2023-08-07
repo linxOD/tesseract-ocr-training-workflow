@@ -12,8 +12,15 @@ See `.github/workflows/*.yml` file.
 * add images to `./hocr-img-line-extraction/my_img/` folder
 * update `.env` file with your data and run `./scripts/set-env.sh`
 * run `./install-all-dependencies.sh`
-* run `./create-ground-truth.sh`
+* run `./scripts/create-hocr-image-lines.sh` from `hocr-img-line-extraction` folder
 * run `./start-workflow.sh`
+
+## Usage DOCKER
+### local
+* run `./scripts/start-docker.sh`
+### from github
+* run `docker run -it -d --rm --name tess-ocr-wf ghcr.io/linxOD/tesseract-ocr-training-workflow:latest`
+* run `docker exec -it tess-ocr-wf bash`
 
 ## LICENSE
 [MIT](LICENSE)
