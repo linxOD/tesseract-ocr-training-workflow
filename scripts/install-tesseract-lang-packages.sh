@@ -30,7 +30,7 @@ rm -r tesseract-ocr-eng_5.0.0~git39-6572757-3_all.deb
 # dpkg -i tesseract-ocr-eng-legacy_5.0.0~git44-4767ea9-2_all.deb
 # rm -r tesseract-ocr-eng-legacy_5.0.0~git44-4767ea9-2_all.deb
 
-cp -r /usr/local/share/tessdata* /usr/share/tesseract-ocr/5/tessdata
+cp -r /usr/local/share/tessdata/* /usr/share/tesseract-ocr/5/tessdata
 
 # echo "install language packages"
 # aptitude install -y \
