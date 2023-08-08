@@ -1,11 +1,11 @@
 #/bin/bash
 
 # # install tesseract with training tools latest version
-wget https://github.com/tesseract-ocr/tesseract/archive/refs/heads/main.zip
-unzip main
-rm -r main.zip
+wget https://github.com/tesseract-ocr/tesseract/archive/refs/tags/5.3.2.zip
+unzip 5.3.2
+rm -r 5.3.2.zip
 
-cd tesseract-main
+cd tesseract-5.3.2
 ./autogen.sh
 ./configure
 make
