@@ -1,4 +1,4 @@
 #/bin/bash
 
 source .env
-export $(grep -v '^#' .env | xargs -d '\n')
+export $(grep -v '^#' . | xargs -d '\n')
