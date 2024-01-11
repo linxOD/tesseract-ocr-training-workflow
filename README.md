@@ -19,8 +19,7 @@ See `.github/workflows/*.yml` file.
 ### local
 * run `./scripts/start-docker.sh`
 ### from github
-* run `docker run -it -d --rm --name tess-ocr-wf ghcr.io/linxOD/tesseract-ocr-training-workflow:latest`
-* run `docker exec -it tess-ocr-wf bash`
+* run `docker run -it --rm --volume $PWD:/code/data:z --name tess-ocr-wf ghcr.io/linxod/tesseract-ocr-training-workflow:main bash`
 
 ## LICENSE
 [MIT](LICENSE)
